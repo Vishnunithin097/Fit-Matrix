@@ -1,0 +1,6 @@
+{
+  "name": "Fit Matrix",
+  "description": "A futuristic cyberpunk fitness ecosystem featuring hybrid ML diet and workout generation, real-time macro tracking, and interactive team squads.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
