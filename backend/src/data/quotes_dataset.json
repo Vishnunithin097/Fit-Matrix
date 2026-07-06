@@ -1,0 +1,58 @@
+[
+  {
+    "quote_id": "QT-MOTIV-001",
+    "text": "The only bad workout is the one that didn't happen. Consistency beats intensity every single day.",
+    "category": "discipline",
+    "target_focus": "consistency",
+    "author": "Unknown"
+  },
+  {
+    "quote_id": "QT-METAB-002",
+    "text": "Your body is a reflection of your choices. Fuel it for performance, not just performance tracking.",
+    "category": "nutrition",
+    "target_focus": "mindset",
+    "author": "Unknown"
+  },
+  {
+    "quote_id": "QT-STREAK-003",
+    "text": "Streaks are built one execution block at a time. Do not break the chain today.",
+    "category": "gamification",
+    "target_focus": "consistency",
+    "author": "Ecosystem Guideline"
+  },
+  {
+    "quote_id": "QT-RECOV-004",
+    "text": "Rest is not quitting; it is an active phase of muscle synthesis. Listen to your bio-telemetry variables.",
+    "category": "recovery",
+    "target_focus": "maintenance",
+    "author": "Sports Science Archive"
+  },
+  {
+    "quote_id": "QT-HYDR-005",
+    "text": "Hydration is the baseline driver of cellular transport mechanisms. Keep your absolute fluid tracking optimized.",
+    "category": "nutrition",
+    "target_focus": "hydration",
+    "author": "Clinical Rule"
+  },
+  {
+    "quote_id": "QT-MIND-006",
+    "text": "The resistance you fight in the gym profile is structural configuration training for the challenges outside it.",
+    "category": "discipline",
+    "target_focus": "mindset",
+    "author": "Arnold Schwarzenegger"
+  },
+  {
+    "quote_id": "QT-SQUAD-007",
+    "text": "Closed networks achieve collective milestones faster. Push your squad parameters past historical boundaries today.",
+    "category": "social",
+    "target_focus": "accountability",
+    "author": "Network Directive"
+  },
+  {
+    "quote_id": "QT-PROGRESS-008",
+    "text": "Small atomic changes compound over Lifetime Duration limits. Focus on matching daily macro configurations cleanly.",
+    "category": "discipline",
+    "target_focus": "consistency",
+    "author": "James Clear"
+  }
+]
