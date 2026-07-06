@@ -1,0 +1,543 @@
+.app-shell {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  min-height: 100vh;
+  background: radial-gradient(circle at top left, rgba(168, 85, 247, 0.16), transparent 30%), #060816;
+}
+
+.sidebar {
+  padding: 24px 18px;
+  border-right: 1px solid rgba(255,255,255,0.08);
+  background: rgba(5, 8, 20, 0.8);
+  backdrop-filter: blur(20px);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 28px;
+}
+
+.brand-mark {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #a855f7, #22d3ee);
+  color: white;
+  box-shadow: 0 18px 35px rgba(34, 211, 238, 0.18);
+}
+
+.brand h2 {
+  margin: 0;
+  font-size: 1.05rem;
+  color: #f8fafc;
+}
+
+.brand p {
+  margin: 2px 0 0;
+  color: #8b8da9;
+  font-size: 0.88rem;
+}
+
+.nav-list {
+  display: grid;
+  gap: 8px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 12px;
+  color: #cbd5e1;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: 180ms ease;
+}
+
+.nav-item:hover,
+.nav-item.active {
+  background: rgba(168, 85, 247, 0.16);
+  color: white;
+}
+
+.sidebar-footer {
+  margin-top: 28px;
+  display: grid;
+  gap: 12px;
+}
+
+.profile-pill {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 14px;
+  background: rgba(255,255,255,0.03);
+}
+
+.profile-pill p {
+  color: #8b8da9;
+  font-size: 0.85rem;
+}
+
+.ghost-btn,
+.primary-btn,
+.icon-btn {
+  border: none;
+  cursor: pointer;
+  font: inherit;
+}
+
+.ghost-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 12px;
+  color: #f8fafc;
+  background: rgba(255,255,255,0.04);
+  border-radius: 12px;
+}
+
+.main-panel {
+  padding: 24px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 18px;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 18px;
+  background: rgba(7, 10, 24, 0.8);
+  box-shadow: 0 20px 50px rgba(0,0,0,0.18);
+  margin-bottom: 20px;
+}
+
+.topbar h1 {
+  margin: 4px 0 0;
+  font-size: 1.2rem;
+  color: #f8fafc;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.72rem;
+  color: #7c85a7;
+}
+
+.topbar-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.icon-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  color: #f8fafc;
+  background: rgba(255,255,255,0.04);
+}
+
+.primary-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  color: white;
+  background: linear-gradient(135deg, #a855f7, #22d3ee);
+  box-shadow: 0 14px 30px rgba(34, 211, 238, 0.2);
+}
+
+.primary-btn.small {
+  padding: 8px 10px;
+  font-size: 0.9rem;
+}
+
+.primary-btn.wide {
+  width: 100%;
+  justify-content: center;
+}
+
+.page-stack {
+  display: grid;
+  gap: 18px;
+}
+
+.hero-panel,
+.panel-card,
+.chart-card,
+.chat-card,
+.settings-card,
+.meal-card,
+.workout-card,
+.stat-card,
+.meal-summary-card,
+.auth-card {
+  background: rgba(10, 15, 32, 0.9);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 22px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.18);
+}
+
+.hero-panel {
+  padding: 22px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.hero-panel.compact {
+  padding: 18px 22px;
+}
+
+.hero-panel .hero-title {
+  margin: 4px 0 0;
+  font-size: 1.6rem;
+  color: white;
+}
+
+.hero-panel .hero-copy {
+  margin-top: 8px;
+  color: #8b8da9;
+  max-width: 620px;
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  border-radius: 999px;
+  color: #e2e8f0;
+  background: rgba(255,255,255,0.04);
+}
+
+.stats-grid,
+.content-grid,
+.meal-grid,
+.workout-grid,
+.settings-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.stats-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.stat-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+}
+
+.stat-card.purple { border-color: rgba(168,85,247,0.35); }
+.stat-card.pink { border-color: rgba(244,114,182,0.35); }
+.stat-card.blue { border-color: rgba(56,189,248,0.35); }
+.stat-card.cyan { border-color: rgba(34,211,238,0.35); }
+
+.stat-icon {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+  background: rgba(255,255,255,0.06);
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  color: #8b8da9;
+}
+
+.stat-value {
+  margin: 2px 0 0;
+  font-size: 1.15rem;
+  color: white;
+}
+
+.content-grid {
+  grid-template-columns: 1.2fr 0.8fr;
+}
+
+.panel-card {
+  padding: 18px;
+}
+
+.panel-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.panel-head h3 {
+  margin: 0;
+  color: white;
+}
+
+.panel-tag {
+  color: #8b8da9;
+  font-size: 0.82rem;
+}
+
+.quick-grid {
+  display: grid;
+  gap: 10px;
+}
+
+.quick-card {
+  display: flex;
+  gap: 10px;
+  padding: 12px;
+  border-radius: 14px;
+  background: rgba(255,255,255,0.03);
+}
+
+.quick-card h4 {
+  margin: 0 0 2px;
+  color: white;
+}
+
+.quick-card p {
+  color: #8b8da9;
+  font-size: 0.9rem;
+}
+
+.toggle-list {
+  display: grid;
+  gap: 12px;
+}
+
+.toggle-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  color: #e2e8f0;
+}
+
+.meal-summary-card {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  padding: 16px 18px;
+}
+
+.meal-grid,
+.workout-grid,
+.settings-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.meal-card,
+.workout-card,
+.settings-card {
+  padding: 16px;
+}
+
+.meal-top,
+.workout-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.meal-time,
+.meal-badge {
+  font-size: 0.8rem;
+  color: #8b8da9;
+}
+
+.meal-badge {
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.05);
+}
+
+.meal-badge.veg { color: #34d399; }
+.meal-badge.nonveg { color: #f59e0b; }
+
+.meal-emoji {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.meal-metrics {
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
+  margin-top: 10px;
+  color: #cbd5e1;
+  font-size: 0.9rem;
+}
+
+.meal-metrics.secondary { color: #8b8da9; }
+
+.workout-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+  color: white;
+}
+
+.chart-card,
+.chat-card {
+  padding: 18px;
+}
+
+.chart-area {
+  height: 280px;
+}
+
+.chat-thread {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.chat-bubble {
+  max-width: 75%;
+  padding: 10px 12px;
+  border-radius: 14px;
+  color: white;
+}
+
+.chat-bubble.assistant {
+  background: rgba(168,85,247,0.2);
+}
+
+.chat-bubble.user {
+  margin-left: auto;
+  background: rgba(34,211,238,0.16);
+}
+
+.chat-input-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.chat-input-row input,
+.auth-form input {
+  flex: 1;
+  padding: 11px 12px;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 12px;
+  background: rgba(255,255,255,0.04);
+  color: white;
+}
+
+.auth-shell {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: radial-gradient(circle at top, rgba(168,85,247,0.18), transparent 35%), #060816;
+}
+
+.auth-card {
+  width: min(100%, 480px);
+  padding: 28px;
+}
+
+.auth-header {
+  margin-bottom: 16px;
+}
+
+.auth-badge {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 10px;
+  background: linear-gradient(135deg, #a855f7, #22d3ee);
+  color: white;
+}
+
+.auth-header h1 {
+  margin: 0 0 6px;
+  color: white;
+  font-size: 1.4rem;
+}
+
+.auth-header p {
+  color: #8b8da9;
+}
+
+.auth-form {
+  display: grid;
+  gap: 12px;
+}
+
+.onboarding-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 12px 0 16px;
+}
+
+.chip-btn {
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.04);
+  color: white;
+  border-radius: 999px;
+  padding: 10px 12px;
+}
+
+@media (max-width: 1024px) {
+  .app-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    border-right: none;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+
+  .stats-grid,
+  .content-grid,
+  .meal-grid,
+  .workout-grid,
+  .settings-grid,
+  .meal-summary-card {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .main-panel {
+    padding: 14px;
+  }
+
+  .topbar,
+  .hero-panel {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .stats-grid,
+  .content-grid,
+  .meal-grid,
+  .workout-grid,
+  .settings-grid,
+  .meal-summary-card {
+    grid-template-columns: 1fr;
+  }
+}
