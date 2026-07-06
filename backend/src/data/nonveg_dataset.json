@@ -1,0 +1,200 @@
+[
+  {
+    "name": "Egg Bhurji with 2 Wheat Toast",
+    "region": "North Indian",
+    "mealType": "Breakfast",
+    "calories": 360,
+    "protein": 18,
+    "carbs": 32,
+    "fats": 14,
+    "fiber": 4,
+    "description": "Scrambled eggs cooked with onions, tomatoes, and Indian green chilies, served with toast."
+  },
+  {
+    "name": "Malabar Egg Roast with Appam",
+    "region": "South Indian",
+    "mealType": "Breakfast",
+    "calories": 390,
+    "protein": 15,
+    "carbs": 48,
+    "fats": 12,
+    "fiber": 3,
+    "description": "Boiled eggs cooked in a spicy, caramelized onion-tomato coconut gravy with fermented rice crepes."
+  },
+  {
+    "name": "Chicken Keema Paratha",
+    "region": "North Indian",
+    "mealType": "Breakfast",
+    "calories": 440,
+    "protein": 24,
+    "carbs": 46,
+    "fats": 14,
+    "fiber": 5,
+    "description": "Whole wheat bread stuffed with lean spiced minced chicken, roasted on a griddle."
+  },
+  {
+    "name": "Boiled Egg White Salad",
+    "region": "South Indian",
+    "mealType": "Mid-Morning Snack",
+    "calories": 110,
+    "protein": 16,
+    "carbs": 4,
+    "fats": 2,
+    "fiber": 2,
+    "description": "Chipped egg whites tossed with cucumbers, onions, and ground black pepper."
+  },
+  {
+    "name": "Chicken Tikka Skewers (6 pcs)",
+    "region": "North Indian",
+    "mealType": "Evening Snack",
+    "calories": 240,
+    "protein": 28,
+    "carbs": 4,
+    "fats": 11,
+    "fiber": 1,
+    "description": "Skinless chicken breasts marinated in yogurt and red spices, grilled in a clay oven."
+  },
+  {
+    "name": "Hyderabadi Chicken Biryani (Lean)",
+    "region": "South Indian",
+    "mealType": "Lunch",
+    "calories": 540,
+    "protein": 32,
+    "carbs": 68,
+    "fats": 13,
+    "fiber": 4,
+    "description": "Aromatic basmati rice cooked with layered marinated chicken and fresh mint in sealed pot."
+  },
+  {
+    "name": "Chettinad Chicken Curry with Rice",
+    "region": "South Indian",
+    "mealType": "Lunch",
+    "calories": 510,
+    "protein": 30,
+    "carbs": 62,
+    "fats": 14,
+    "fiber": 5,
+    "description": "Fiery southern chicken curry made with roasted spices, poppy seeds, and coconut, served with rice."
+  },
+  {
+    "name": "Kerala Fish Curry with Brown Rice",
+    "region": "South Indian",
+    "mealType": "Lunch",
+    "calories": 480,
+    "protein": 28,
+    "carbs": 60,
+    "fats": 11,
+    "fiber": 6,
+    "description": "Traditional red fish curry made with kokum (tamarind) and medium spiced coconut milk gravy."
+  },
+  {
+    "name": "Amritsari Fish Tikka with Mint Dip",
+    "region": "North Indian",
+    "mealType": "Evening Snack",
+    "calories": 210,
+    "protein": 22,
+    "carbs": 6,
+    "fats": 9,
+    "fiber": 2,
+    "description": "Spiced gram-flour battered fish cubes baked until golden and crispy."
+  },
+  {
+    "name": "Butter Chicken (High Protein / Low Fat) with 2 Rotis",
+    "region": "North Indian",
+    "mealType": "Dinner",
+    "calories": 490,
+    "protein": 34,
+    "carbs": 44,
+    "fats": 15,
+    "fiber": 5,
+    "description": "Tandoori chicken pieces cooked in a cashew-tomato gravy sweetened with honey."
+  },
+  {
+    "name": "Kolhapuri Mutton Sukka with Bhakri",
+    "region": "West Indian",
+    "mealType": "Dinner",
+    "calories": 540,
+    "protein": 30,
+    "carbs": 50,
+    "fats": 18,
+    "fiber": 6,
+    "description": "Spicy, dry lamb preparation from Kolhapur, roasted with fresh spices and served with sorghum bread."
+  },
+  {
+    "name": "Goan Prawn Balchao with Rice",
+    "region": "West Indian",
+    "mealType": "Lunch",
+    "calories": 460,
+    "protein": 26,
+    "carbs": 65,
+    "fats": 10,
+    "fiber": 4,
+    "description": "Prawns cooked in a fiery, tangy tomato-vinegar pickle sauce, served with basmati rice."
+  },
+  {
+    "name": "Bengali Macher Jhol with Rice",
+    "region": "East Indian",
+    "mealType": "Lunch",
+    "calories": 440,
+    "protein": 25,
+    "carbs": 62,
+    "fats": 8,
+    "fiber": 4,
+    "description": "Light and comforting mustard-based fish stew cooked with potatoes and cauliflowers."
+  },
+  {
+    "name": "Assamese Duck Curry with Steamed Rice",
+    "region": "East Indian",
+    "mealType": "Lunch",
+    "calories": 560,
+    "protein": 29,
+    "carbs": 60,
+    "fats": 19,
+    "fiber": 3,
+    "description": "Rich traditional duck curry cooked with ash gourd (white pumpkin) and spices, served with rice."
+  },
+  {
+    "name": "Chicken Momo with Sesame Chutney (8 pcs)",
+    "region": "East Indian",
+    "mealType": "Evening Snack",
+    "calories": 280,
+    "protein": 18,
+    "carbs": 38,
+    "fats": 6,
+    "fiber": 2,
+    "description": "Steamed dumplings stuffed with juicy minced chicken and served with spicy tomato chutney."
+  },
+  {
+    "name": "Shami Kabab (Chicken, 2 pcs)",
+    "region": "North Indian",
+    "mealType": "Mid-Morning Snack",
+    "calories": 180,
+    "protein": 16,
+    "carbs": 8,
+    "fats": 7,
+    "fiber": 3,
+    "description": "Silky lentil and chicken patties flavored with mint and cardamom."
+  },
+  {
+    "name": "Doi Maach (Bengali Yogurt Fish) with Rice",
+    "region": "East Indian",
+    "mealType": "Dinner",
+    "calories": 420,
+    "protein": 26,
+    "carbs": 58,
+    "fats": 9,
+    "fiber": 3,
+    "description": "Fish steaks simmered in a mildly spiced, sweet and sour yogurt sauce, served with rice."
+  },
+  {
+    "name": "Kashmiri Rogan Josh (Lean Cut) with 2 Naan",
+    "region": "North Indian",
+    "mealType": "Dinner",
+    "calories": 580,
+    "protein": 35,
+    "carbs": 56,
+    "fats": 19,
+    "fiber": 5,
+    "description": "Slow-cooked lean lamb stew spiced with Kashmiri chilies and fennel."
+  }
+]
