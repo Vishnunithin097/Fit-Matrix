@@ -2,9 +2,65 @@
 .env
 .env.*
 !.env.example
+*.local
+.env.local
+.env.development
+.env.production
+.env.test
 
-# Dependencies and generated output
+# Node / frontend / backend dependencies
 node_modules/
+**/node_modules/
+frontend/dist/
+backend/dist/
+coverage/
+.npm/
+
+# Build output
+build/
 dist/
+out/
+*.tsbuildinfo
+
+# Python ML service artifacts
 __pycache__/
+*.py[cod]
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
+venv/
+.venv/
+**/.venv/
+*.egg-info/
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs and runtime data
+*.log
+logs/
+log/
+*.pid
+*.sqlite
+*.sqlite3
+
+# OS generated files
+Desktop.ini
+
+# Temporary files
+.tmp/
+tmp/
+temp/
+
+# Optional project-specific generated assets
+ml_service/**/*.joblib
+ml_service/**/*.pkl
+ml_service/**/*.model
+backend/uploads/
+backend/tmp/
+backend/.cache/
