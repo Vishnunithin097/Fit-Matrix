@@ -1,4 +1,6 @@
-# Local secrets and environment configuration
+# ============================================
+# LOCAL SECRETS AND ENVIRONMENT CONFIGURATION
+# ============================================
 .env
 .env.*
 !.env.example
@@ -8,59 +10,100 @@
 .env.production
 .env.test
 
-# Node / frontend / backend dependencies
+
+# ============================================
+# NODE / FRONTEND / BACKEND DEPENDENCIES
+# ============================================
 node_modules/
 **/node_modules/
+
 frontend/dist/
 backend/dist/
+
 coverage/
 .npm/
 
-# Build output
+
+# ============================================
+# BUILD OUTPUT
+# ============================================
 build/
 dist/
 out/
 *.tsbuildinfo
 
-# Python ML service artifacts
+
+# ============================================
+# PYTHON / ML SERVICE
+# ============================================
 __pycache__/
+**/__pycache__/
+
 *.py[cod]
+
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+
 venv/
 .venv/
+.venv311/
+**/venv/
 **/.venv/
+**/.venv311/
+
 *.egg-info/
 
-# IDE / editor files
+
+# ============================================
+# IDE / EDITOR FILES
+# ============================================
 .vscode/
 .idea/
 *.swp
 *.swo
+
+
+# ============================================
+# OS GENERATED FILES
+# ============================================
 .DS_Store
 Thumbs.db
+Desktop.ini
 
-# Logs and runtime data
+
+# ============================================
+# LOGS AND RUNTIME DATA
+# ============================================
 *.log
 logs/
 log/
 *.pid
+
 *.sqlite
 *.sqlite3
 
-# OS generated files
-Desktop.ini
 
-# Temporary files
+# ============================================
+# TEMPORARY FILES
+# ============================================
 .tmp/
 tmp/
 temp/
 
-# Optional project-specific generated assets
-ml_service/**/*.joblib
-ml_service/**/*.pkl
-ml_service/**/*.model
+
+# ============================================
+# PROJECT-SPECIFIC GENERATED FILES
+# ============================================
 backend/uploads/
 backend/tmp/
 backend/.cache/
+
+
+# ============================================
+# MACHINE LEARNING MODEL ARTIFACTS
+# ============================================
+# Uncomment these if you DON'T want to push ML models
+# ml_service/**/*.joblib
+# ml_service/**/*.pkl
+# ml_service/**/*.model
