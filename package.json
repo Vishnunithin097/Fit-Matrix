@@ -1,0 +1,26 @@
+{
+  "name": "fit-matrix-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "tsx server.ts",
+    "start": "npm --prefix backend run start",
+    "build": "npm --prefix backend run build && npm --prefix frontend run build",
+    "start:ml": "python -m uvicorn app:app --app-dir ml_service --host 0.0.0.0 --port 8001"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0",
+    "axios": "^1.7.9",
+    "bcryptjs": "^2.4.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.6.2",
+    "vite": "^6.4.3"
+  },
+  "devDependencies": {
+    "tsx": "^4.22.4"
+  }
+}

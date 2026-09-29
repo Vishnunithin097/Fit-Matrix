@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start Backend (npm start)",
+      "type": "shell",
+      "command": "npm start",
+      "options": { "cwd": "${workspaceFolder}/backend" },
+      "problemMatcher": [],
+      "presentation": { "panel": "shared", "reveal": "always", "focus": true }
+    },
+    {
+      "label": "Deactivate Python venv",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-Command",
+        "if (Test-Path Env:VIRTUAL_ENV) { Remove-Item Env:VIRTUAL_ENV -ErrorAction SilentlyContinue }; if (Get-Command deactivate -ErrorAction SilentlyContinue) { deactivate }"
+      ],
+      "problemMatcher": [],
+      "presentation": { "panel": "shared", "reveal": "always", "focus": false }
+    }
+  ]
+}
